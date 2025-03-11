@@ -1,3 +1,13 @@
+## 2025-03-11
+How to use:
+
+1. Clone or download this repo
+2. Open `chrome://extensions/`
+3. Click "Load unpacked" button
+4. Choose cloned "webextension-open-tabs-next-to-current" directory
+5. Yay
+
+
 [![pre-commit Status](https://github.com/sblask/webextension-open-tabs-next-to-current/actions/workflows/pre-commit.yml/badge.svg)](https://github.com/sblask/webextension-open-tabs-next-to-current/actions/workflows/pre-commit.yml)
 
 Open Tabs Next To Current
