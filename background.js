@@ -1,3 +1,5 @@
+import './browser-polyfill.js';
+
 const TAB_SESSION_KEY = "open-tabs-next-to-current-tab-uuid";
 
 const windowIdTabIdsMapping = new Map();

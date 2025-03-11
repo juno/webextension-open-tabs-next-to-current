@@ -1,10 +1,8 @@
 {
     "author": "Sebastian Blask",
     "background": {
-        "scripts": [
-            "browser-polyfill.js",
-            "background.js"
-        ]
+        "service_worker": "background.js",
+        "type": "module"
     },
     "commands": {
         "open-new-tab-at-default-location": {
@@ -24,7 +22,7 @@
         "48": "icon-48x48.png",
         "64": "icon-64x64.png"
     },
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Open Tabs Next to Current",
     "permissions": [
         "sessions"
